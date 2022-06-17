@@ -3,3 +3,5 @@ def factors(n):
         if n % k == 0:
             yield k
 
+for factor in factors(100):
+    print(factor)
